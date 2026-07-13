@@ -194,6 +194,7 @@ export default function HomePage() {
               <p className="desc">Build financial visibility, governance, unit economics and scale readiness.</p>
               <div className="ideal-label">Ideal For</div>
               <ul><li>Fundraising preparation</li><li>Cash-flow challenges</li><li>Margin improvement</li><li>Board reporting</li><li>Finance transformation</li></ul>
+              <button className="btn btn-outline" disabled>Coming Soon</button>
             </div>
             <div className="pod-card">
               <span className="tag">AI Transformation Pod</span>
@@ -201,6 +202,7 @@ export default function HomePage() {
               <p className="desc">Connect AI initiatives to business strategy, product outcomes and operational value.</p>
               <div className="ideal-label">Ideal For</div>
               <ul><li>AI readiness</li><li>Product transformation</li><li>Workflow redesign</li><li>Digital operating models</li><li>AI monetisation</li></ul>
+              <button className="btn btn-outline" disabled>Coming Soon</button>
             </div>
             <div className="pod-card">
               <span className="tag">People and Organisation Pod</span>
@@ -208,6 +210,7 @@ export default function HomePage() {
               <p className="desc">Align structure, leadership roles, culture, performance and organisational capability.</p>
               <div className="ideal-label">Ideal For</div>
               <ul><li>Leadership gaps</li><li>Rapid hiring</li><li>Organisational redesign</li><li>Performance systems</li><li>Founder-to-leadership transition</li></ul>
+              <button className="btn btn-outline" disabled>Coming Soon</button>
             </div>
           </RevealOnScroll>
           <RevealOnScroll className="partners-cta">
