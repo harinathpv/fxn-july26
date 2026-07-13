@@ -148,8 +148,8 @@ export default function GTMPodPage() {
           </RevealOnScroll>
 
           {/* PHASE 1: DIAGNOSE */}
-          <RevealOnScroll style={{ marginTop: '64px' }}>
-            <div style={{ marginBottom: '64px' }}>
+          <RevealOnScroll>
+            <div style={{ marginTop: '64px', marginBottom: '64px' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px' }}>
                 <span style={{ fontSize: '32px', fontWeight: '600', color: 'var(--fn-gtm)' }}>1</span>
                 <h3 style={{ marginBottom: 0 }}>DIAGNOSE — Weeks 1-2</h3>
@@ -256,7 +256,8 @@ export default function GTMPodPage() {
             <h2>Tangible artifacts, not just slides</h2>
             <p style={{ marginTop: '16px' }}>Graduate with a complete GTM Playbook you can run from day one.</p>
           </RevealOnScroll>
-          <RevealOnScroll className="cap-grid" style={{ marginTop: '48px' }}>
+          <RevealOnScroll>
+            <div className="cap-grid" style={{ marginTop: '48px' }}>
             <div className="cap-card">
               <span className="num">01</span>
               <h3>EPIC Framework Overview</h3>
@@ -292,6 +293,7 @@ export default function GTMPodPage() {
               <h3>AXIS Outbound DemandGen</h3>
               <p>A working artifact you can execute immediately.</p>
             </div>
+            </div>
           </RevealOnScroll>
         </div>
       </section>
@@ -303,7 +305,8 @@ export default function GTMPodPage() {
             <span className="label" style={{ color: 'var(--fn-gtm)' }}>Program Logistics</span>
             <h2>Designed for busy founders</h2>
           </RevealOnScroll>
-          <RevealOnScroll className="gap-grid" style={{ marginTop: '48px' }}>
+          <RevealOnScroll>
+            <div className="gap-grid" style={{ marginTop: '48px' }}>
             <div className="cell">
               <span className="n" style={{ color: 'var(--fn-gtm)' }}>01</span>
               <h4 style={{ color: 'var(--navy-deep)', fontSize: '1.1rem', fontWeight: '600', marginBottom: '8px' }}>1 Live Session/Week</h4>
@@ -324,6 +327,7 @@ export default function GTMPodPage() {
               <h4 style={{ color: 'var(--navy-deep)', fontSize: '1.1rem', fontWeight: '600', marginBottom: '8px' }}>Practitioner Review</h4>
               <p>Direct feedback on your work</p>
             </div>
+            </div>
           </RevealOnScroll>
         </div>
       </section>
@@ -335,7 +339,8 @@ export default function GTMPodPage() {
             <span className="label" style={{ color: 'var(--fn-gtm)' }}>Who It&apos;s For</span>
             <h2>Is the GTM Pod right for you?</h2>
           </RevealOnScroll>
-          <RevealOnScroll style={{ marginTop: '48px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '40px' }}>
+          <RevealOnScroll>
+            <div style={{ marginTop: '48px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '40px' }}>
             <div>
               <h3 style={{ color: 'var(--fn-gtm)', marginBottom: '20px' }}>Great fit if…</h3>
               <ul style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
@@ -356,6 +361,7 @@ export default function GTMPodPage() {
                 <li style={{ display: 'flex', gap: '12px' }}><span style={{ color: 'var(--grey)', fontWeight: '600' }}>✗</span> <span>You expect done-for-you agency execution</span></li>
               </ul>
             </div>
+            </div>
           </RevealOnScroll>
         </div>
       </section>
@@ -368,7 +374,8 @@ export default function GTMPodPage() {
             <h2>Simple, transparent pricing</h2>
             <p>Full 12-week curriculum with all deliverables included.</p>
           </RevealOnScroll>
-          <RevealOnScroll style={{ marginTop: '48px', textAlign: 'center' }}>
+          <RevealOnScroll>
+            <div style={{ marginTop: '48px', textAlign: 'center' }}>
             <div style={{ padding: '48px', border: `2px solid var(--fn-gtm)`, borderRadius: 'var(--radius)', maxWidth: '600px', margin: '0 auto' }}>
               <div style={{ fontSize: '14px', fontWeight: '600', color: 'var(--fn-gtm)', marginBottom: '16px', letterSpacing: '0.1em', textTransform: 'uppercase' }}>Standard Price</div>
               <div style={{ fontSize: '48px', fontWeight: '600', color: 'var(--navy-deep)', marginBottom: '4px' }}>₹1,00,000</div>
@@ -386,6 +393,7 @@ export default function GTMPodPage() {
               <Link href="#" className="btn btn-teal" style={{ width: '100%', justifyContent: 'center', marginBottom: '16px' }}>Apply Now</Link>
               <div style={{ fontSize: '13px', color: 'var(--grey)' }}>No commitment required. Speak to an FxN advisor before enrolling.</div>
             </div>
+            </div>
           </RevealOnScroll>
         </div>
       </section>
@@ -393,11 +401,13 @@ export default function GTMPodPage() {
       {/* CTA */}
       <section className="dark" id="final-cta">
         <div className="wrap">
-          <RevealOnScroll style={{ textAlign: 'center' }}>
+          <RevealOnScroll>
+            <div style={{ textAlign: 'center' }}>
             <h2 style={{ color: 'var(--ivory)' }}>Ready to fix your GTM motion?</h2>
             <p style={{ color: 'rgba(250,246,236,0.8)', fontSize: '1.1rem', marginTop: '16px', marginBottom: '32px' }}>Join a cohort of founders and GTM leaders building repeatable commercial engines.</p>
             <Link href="#apply" className="btn btn-teal" style={{ marginRight: '16px' }}>Join the Next Cohort</Link>
             <Link href="/" className="btn btn-outline light">Back to FxN</Link>
+            </div>
           </RevealOnScroll>
         </div>
       </section>
