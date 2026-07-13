@@ -94,40 +94,47 @@ export default function GTMPodPage() {
             <h2>Not another GTM course</h2>
           </RevealOnScroll>
           <RevealOnScroll>
-            <table className="compare-table" style={{ marginTop: '48px' }}>
-              <thead>
-                <tr>
-                  <th>FxN GTM Pod</th>
-                  <th>Generic GTM Courses</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><strong>Built with your real data</strong><br/>Your pipeline, your ICP</td>
-                  <td>Generic templates</td>
-                </tr>
-                <tr>
-                  <td><strong>Tangible deliverables</strong><br/>7 working playbooks</td>
-                  <td>Slides & notes</td>
-                </tr>
-                <tr>
-                  <td><strong>Who teaches</strong><br/>Practicing operators</td>
-                  <td>Career educators</td>
-                </tr>
-                <tr>
-                  <td><strong>Team alignment</strong><br/>Founder + GTM leader pods</td>
-                  <td>Solo learner</td>
-                </tr>
-                <tr>
-                  <td><strong>Time commitment</strong><br/>3–4 focused hrs/week</td>
-                  <td>Self-paced, often abandoned</td>
-                </tr>
-                <tr>
-                  <td><strong>AI & modern GTM</strong><br/>Built into every phase</td>
-                  <td>Rarely covered</td>
-                </tr>
-              </tbody>
-            </table>
+<table className="compare-table" style={{ marginTop: '48px' }}>
+  <thead>
+  <tr>
+  <th>What You Get</th>
+  <th>✦ FxN GTM Pod</th>
+  <th>Generic GTM Courses</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><strong>Built with your real data</strong></td>
+  <td>✓ Your pipeline, your ICP</td>
+  <td>✕ Generic templates</td>
+  </tr>
+  <tr>
+  <td><strong>Tangible deliverables</strong></td>
+  <td>✓ 7 working playbooks</td>
+  <td>✕ Slides & notes</td>
+  </tr>
+  <tr>
+  <td><strong>Who teaches</strong></td>
+  <td>✓ Practicing operators</td>
+  <td>✕ Career educators</td>
+  </tr>
+  <tr>
+  <td><strong>Team alignment</strong></td>
+  <td>✓ Founder + GTM leader pods</td>
+  <td>✕ Solo learner</td>
+  </tr>
+  <tr>
+  <td><strong>Time commitment</strong></td>
+  <td>✓ 3–4 focused hrs/week</td>
+  <td>✕ Self-paced, often abandoned</td>
+  </tr>
+  <tr>
+  <td><strong>AI & modern GTM</strong></td>
+  <td>✓ Built into every phase</td>
+  <td>✕ Rarely covered</td>
+  </tr>
+  </tbody>
+  </table>
           </RevealOnScroll>
         </div>
       </section>
