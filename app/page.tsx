@@ -71,6 +71,12 @@ export default function HomePage() {
             <div className="cell"><span className="n">04</span>Strategic initiatives lose momentum.</div>
             <div className="cell"><span className="n">05</span>Senior roles remain vacant for months.</div>
             <div className="cell"><span className="n">06</span>Companies hire too early, too late, or for the wrong mandate.</div>
+            <div className="cell"><span className="n">07</span>Talent retention challenges impact continuity.</div>
+            <div className="cell"><span className="n">08</span>Unclear accountability across teams and functions.</div>
+            <div className="cell"><span className="n">09</span>Inability to scale at the pace of business growth.</div>
+            <div className="cell"><span className="n">10</span>Inconsistent execution across departments.</div>
+            <div className="cell"><span className="n">11</span>Difficulty adapting to market changes quickly.</div>
+            <div className="cell"><span className="n">12</span>Risk of losing competitive advantage.</div>
           </RevealOnScroll>
 
           <RevealOnScroll className="gap-close">
