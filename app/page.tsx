@@ -180,6 +180,7 @@ export default function HomePage() {
               <p className="desc">Align strategy, positioning, sales, marketing, customer success and revenue operations.</p>
               <div className="ideal-label">Ideal For</div>
               <ul><li>Weak pipelines</li><li>Founder-led sales</li><li>Poor conversion</li><li>Unclear ICP</li><li>Misaligned revenue teams</li></ul>
+              <Link href="/pods/gtm" className="btn btn-teal">Explore the Pod</Link>
             </div>
             <div className="pod-card">
               <span className="tag">Finance and Scale Pod</span>
