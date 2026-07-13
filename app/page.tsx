@@ -213,9 +213,6 @@ export default function HomePage() {
               <button className="btn btn-outline" disabled>Coming Soon</button>
             </div>
           </RevealOnScroll>
-          <RevealOnScroll className="partners-cta">
-            <Link href="/member-directory" className="btn btn-outline">View All Pods</Link>
-          </RevealOnScroll>
         </div>
       </section>
 
