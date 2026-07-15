@@ -19,13 +19,10 @@ export default function Header() {
         <nav className="primary">
           <ul>
             <li>
-              <Link href="/#why-fxn">Why FxN</Link>
-            </li>
-            <li>
               <Link href="/#pods">Leadership Pods ▾</Link>
               <div className="dropdown">
                 <Link href="/#pods">Pods Overview</Link>
-                <Link href="/#pods">GTM Pod</Link>
+                <Link href="/pods/gtm">GTM Pod</Link>
                 <Link href="/#pods">Finance and Scale Pod</Link>
                 <Link href="/#pods">AI Transformation Pod</Link>
                 <Link href="/#pods">People and Organisation Pod</Link>
@@ -75,16 +72,13 @@ export default function Header() {
       <div className={`mobile-panel${open ? " open" : ""}`}>
         <ul>
           <li>
-            <Link href="/#why-fxn" onClick={() => setOpen(false)}>Why FxN</Link>
-          </li>
-          <li>
             <Link href="/#pods" onClick={() => setOpen(false)}>Leadership Pods</Link>
           </li>
           <li className="sub-item">
             <Link href="/#pods" onClick={() => setOpen(false)}>— Pods Overview</Link>
           </li>
           <li className="sub-item">
-            <Link href="/#pods" onClick={() => setOpen(false)}>— GTM Pod</Link>
+            <Link href="/pods/gtm" onClick={() => setOpen(false)}>— GTM Pod</Link>
           </li>
           <li className="sub-item">
             <Link href="/#pods" onClick={() => setOpen(false)}>— Finance and Scale Pod</Link>

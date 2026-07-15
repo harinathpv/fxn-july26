@@ -232,6 +232,9 @@ section{padding:120px 0;}
 .pod-card ul{margin-bottom:0;}
 .pod-card ul li{font-size:13px;color:var(--navy-deep);padding:5px 0;border-top:1px solid var(--line);}
 .pod-card ul li:first-child{border-top:none;}
+.pod-card .btn{margin-top:auto;width:100%;}
+.btn:disabled{opacity:0.6;cursor:not-allowed;}
+.btn:disabled:hover{opacity:0.6;}
 
 /* ---------- LAAS EXPLAINER TABLE ---------- */
 .laas-explain{display:grid;grid-template-columns:0.9fr 1.1fr;gap:70px;align-items:start;margin-bottom:10px;}
