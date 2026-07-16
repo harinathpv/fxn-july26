@@ -19,15 +19,7 @@ export default function Header() {
         <nav className="primary">
           <ul>
             <li>
-              <Link href="/#pods">Leadership Pods ▾</Link>
-              <div className="dropdown">
-                <Link href="/#pods">Pods Overview</Link>
-                <Link href="/pods/gtm">GTM Pod</Link>
-                <Link href="/#pods">Finance and Scale Pod</Link>
-                <Link href="/#pods">AI Transformation Pod</Link>
-                <Link href="/#pods">People and Organisation Pod</Link>
-                <Link href="/#pods">Custom Pod</Link>
-              </div>
+              <Link href="/#featured-pods">Leadership Pods</Link>
             </li>
             <li>
               <Link href="/leadership-as-a-service">Leadership as a Service</Link>
@@ -72,25 +64,7 @@ export default function Header() {
       <div className={`mobile-panel${open ? " open" : ""}`}>
         <ul>
           <li>
-            <Link href="/#pods" onClick={() => setOpen(false)}>Leadership Pods</Link>
-          </li>
-          <li className="sub-item">
-            <Link href="/#pods" onClick={() => setOpen(false)}>— Pods Overview</Link>
-          </li>
-          <li className="sub-item">
-            <Link href="/pods/gtm" onClick={() => setOpen(false)}>— GTM Pod</Link>
-          </li>
-          <li className="sub-item">
-            <Link href="/#pods" onClick={() => setOpen(false)}>— Finance and Scale Pod</Link>
-          </li>
-          <li className="sub-item">
-            <Link href="/#pods" onClick={() => setOpen(false)}>— AI Transformation Pod</Link>
-          </li>
-          <li className="sub-item">
-            <Link href="/#pods" onClick={() => setOpen(false)}>— People and Organisation Pod</Link>
-          </li>
-          <li className="sub-item">
-            <Link href="/#pods" onClick={() => setOpen(false)}>— Custom Pod</Link>
+            <Link href="/#featured-pods" onClick={() => setOpen(false)}>Leadership Pods</Link>
           </li>
           <li>
             <Link href="/leadership-as-a-service" onClick={() => setOpen(false)}>Leadership as a Service</Link>
