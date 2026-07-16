@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { episodes } from "@/lib/data/episodes";
-import { events } from "@/lib/data/events";
+import { events, partnerEvents } from "@/lib/data/events";
 import { partnerUpdates } from "@/lib/data/partnerUpdates";
 
 export const metadata: Metadata = {
@@ -133,6 +133,44 @@ export default function EventsSocialPage() {
               </div>
             )}
           </div>
+        </div>
+      </section>
+
+      {/* PARTNER / MEMBER DRIVEN EVENTS */}
+      <section id="partner-events">
+        <div className="wrap">
+          <div className="section-head">
+            <span className="label">Partner / Member Driven Events</span>
+            <h2>Events from our community.</h2>
+          </div>
+
+          {partnerEvents.map((ev) => (
+            <div className="partner-event-card" key={ev.host + ev.date}>
+              <div className="partner-event-host">{ev.host}</div>
+              <div className="partner-event-layout">
+                <div className="partner-event-image">
+                  <img src={ev.image} alt={ev.title} />
+                </div>
+                <div className="partner-event-content">
+                  <h3>{ev.title}</h3>
+                  <div className="partner-event-meta">
+                    <div className="meta-row">
+                      <span className="meta-label">Date</span>
+                      <span className="meta-value">{ev.date}</span>
+                    </div>
+                    <div className="meta-row">
+                      <span className="meta-label">Time</span>
+                      <span className="meta-value">{ev.time}</span>
+                    </div>
+                  </div>
+                  <p>{ev.description}</p>
+                  <a href={ev.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                    Link to Register
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
