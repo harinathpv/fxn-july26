@@ -216,7 +216,7 @@ export default function LeadershipAsAServicePage() {
                 <li>No rollover</li>
                 <li>No multi-Partner coordination</li>
               </ul>
-              <a href="https://cal.com/harinathpv" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Book an Advisory Session</a>
+              <a href="mailto:harinpv@navaka.studio?subject=Wish%20to%20book%20an%20advisory%20session" className="btn btn-outline">Book an Advisory Session</a>
             </div>
             <div className="price-card">
               <div className="plan-name">Leadership Access</div>
@@ -232,7 +232,7 @@ export default function LeadershipAsAServicePage() {
                 <li>Hours expire at the end of the billing cycle</li>
                 <li>No multi-Partner allocation</li>
               </ul>
-              <a href="https://cal.com/harinathpv" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Choose Leadership Access</a>
+              <a href="mailto:harinpv@navaka.studio?subject=Need%20to%20Choose%20our%20Leadership%20Access" className="btn btn-outline">Choose Leadership Access</a>
             </div>
             <div className="price-card hi">
               <div className="price-badge">Most Flexible</div>
@@ -254,7 +254,7 @@ export default function LeadershipAsAServicePage() {
                 <li>Hours valid for 30 days</li>
                 <li>No rollover on monthly subscriptions</li>
               </ul>
-              <a href="https://cal.com/harinathpv" target="_blank" rel="noopener noreferrer" className="btn btn-amber">Design Your LaaS Plan</a>
+              <a href="mailto:harinpv@navaka.studio?subject=Need%20to%20Design%20our%20LaaS" className="btn btn-amber">Design Your LaaS Plan</a>
             </div>
             <div className="price-card">
               <div className="plan-name">Annual Leadership Subscription</div>
@@ -272,7 +272,7 @@ export default function LeadershipAsAServicePage() {
                 <li>Flexible rollover within the active annual term</li>
                 <li>Unused hours expire at the end of the term</li>
               </ul>
-              <a href="https://cal.com/harinathpv" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Discuss the Annual Plan</a>
+              <a href="mailto:harinpv@navaka.studio?subject=Need%20to%20Discuss%20the%20Annual%20Plan" className="btn btn-outline">Discuss the Annual Plan</a>
             </div>
           </RevealOnScroll>
           <RevealOnScroll className="price-gst-note">
