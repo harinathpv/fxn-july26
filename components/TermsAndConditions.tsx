@@ -37,8 +37,7 @@ export default function TermsAndConditions() {
   return (
     <>
       {showModal && (
-        <div className="terms-modal-overlay">
-          <div className="terms-modal">
+        <div className="terms-popup">
             <div className="terms-header">
               <h2>Terms & Conditions</h2>
             </div>

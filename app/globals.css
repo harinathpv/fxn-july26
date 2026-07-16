@@ -604,18 +604,18 @@ footer{background:var(--navy-deep);color:#8B97A5;border-top:1px solid var(--line
 .whatsapp-button:hover{background:#20BA5A;transform:scale(1.1);box-shadow:0 6px 16px rgba(0,0,0,0.2);}
 .whatsapp-button svg{width:24px;height:24px;}
 
-/* TERMS & CONDITIONS MODAL */
-.terms-modal-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:1000;}
-.terms-modal{background:white;border-radius:12px;max-width:600px;max-height:80vh;overflow-y:auto;box-shadow:0 10px 40px rgba(0,0,0,0.2);width:90%;margin:0 auto;}
-.terms-header{padding:24px;border-bottom:1px solid var(--line);position:sticky;top:0;background:white;}
-.terms-header h2{margin:0;font-size:1.5rem;}
-.terms-content{padding:32px;font-size:14px;line-height:1.6;color:var(--navy-deep);}
-.terms-content h3{margin:24px 0 12px 0;font-size:1rem;font-weight:600;}
-.terms-content h4{margin:16px 0 8px 0;font-size:0.95rem;font-weight:600;}
-.terms-content p{margin:0 0 16px 0;}
-.terms-content ul{margin:0 0 16px 24px;padding:0;}
-.terms-content ul li{margin-bottom:8px;}
-.terms-actions{padding:24px;border-top:1px solid var(--line);display:flex;gap:12px;justify-content:flex-end;}
+/* TERMS & CONDITIONS POPUP */
+.terms-popup{position:fixed;bottom:0;left:0;right:0;background:white;box-shadow:0 -4px 16px rgba(0,0,0,0.1);z-index:999;max-height:70vh;display:flex;flex-direction:column;animation:slideUp 0.3s ease-out;}
+@keyframes slideUp{from{transform:translateY(100%);opacity:0;}to{transform:translateY(0);opacity:1;}}
+.terms-header{padding:20px 24px;border-bottom:1px solid var(--line);background:white;}
+.terms-header h2{margin:0;font-size:1.2rem;}
+.terms-content{padding:20px 24px;font-size:13px;line-height:1.5;color:var(--navy-deep);overflow-y:auto;flex:1;}
+.terms-content h3{margin:16px 0 8px 0;font-size:0.95rem;font-weight:600;}
+.terms-content h4{margin:12px 0 6px 0;font-size:0.9rem;font-weight:600;}
+.terms-content p{margin:0 0 12px 0;}
+.terms-content ul{margin:0 0 12px 20px;padding:0;}
+.terms-content ul li{margin-bottom:6px;}
+.terms-actions{padding:16px 24px;border-top:1px solid var(--line);display:flex;gap:12px;background:white;}
 .terms-actions .btn{flex:1;text-align:center;}
 @media (max-width:480px){
   .partner-grid{grid-template-columns:1fr 1fr;}
