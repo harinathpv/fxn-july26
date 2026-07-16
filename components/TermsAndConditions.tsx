@@ -1,10 +1,24 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function TermsAndConditions() {
   const [showModal, setShowModal] = useState(false);
   const [accepted, setAccepted] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+    // Check if terms were previously accepted
+    if (typeof window !== 'undefined') {
+      const termsAccepted = localStorage.getItem('fxn-terms-accepted');
+      if (!termsAccepted) {
+        setShowModal(true);
+      } else {
+        setAccepted(true);
+      }
+    }
+  }, []);
 
   const handleAccept = () => {
     setAccepted(true);
@@ -16,7 +30,7 @@ export default function TermsAndConditions() {
     setShowModal(false);
   };
 
-  if (accepted || typeof window === 'undefined') {
+  if (!mounted || accepted) {
     return null;
   }
 
