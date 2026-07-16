@@ -12,7 +12,7 @@ export default function Header() {
         <Link href="/" className="logo">
           <img
             className="logo-mark"
-            src="https://www.fxn.network/images/fxn-logo-new.png"
+            src="/fxn-logo.png"
             alt="FxN — The Fractional Executive Network India"
           />
         </Link>
