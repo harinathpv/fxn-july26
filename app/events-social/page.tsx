@@ -146,7 +146,6 @@ export default function EventsSocialPage() {
 
           {partnerEvents.map((ev) => (
             <div className="partner-event-card" key={ev.host + ev.date}>
-              <div className="partner-event-host">{ev.host}</div>
               <div className="partner-event-layout">
                 <div className="partner-event-image">
                   <img src={ev.image} alt={ev.title} />
