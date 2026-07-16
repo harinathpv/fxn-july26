@@ -22,7 +22,7 @@ export default function LeadershipAsAServicePage() {
             <h1>One subscription.<br />Multiple leadership capabilities.</h1>
             <p className="lede">Your company&apos;s leadership requirements do not remain fixed. One month, you may need financial guidance. The next, you may need support across GTM, technology, people, product or operations. FxN Leadership as a Service gives growing companies flexible access to a curated collective of senior leaders through one structured subscription.</p>
             <div className="hero-actions">
-              <a href="https://cal.com/harinathpv" target="_blank" rel="noopener noreferrer" className="btn btn-teal">Design Your Leadership Subscription</a>
+              <a href="mailto:harinpv@navaka.studio?subject=FxN%20-%20Need%20to%20design%20our%20Leadership%20Subscription" className="btn btn-teal">Design Your Leadership Subscription</a>
               <Link href="#pricing" className="btn btn-outline light">See Pricing</Link>
             </div>
             <div className="hero-proof">
