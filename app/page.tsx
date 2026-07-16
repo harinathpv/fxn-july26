@@ -16,7 +16,7 @@ export default function HomePage() {
             <p className="lede">FxN gives growing Indian companies access to senior leadership through outcome-led Leadership Pods and Leadership as a Service.</p>
             <div className="hero-actions">
               <Link href="#pods" className="btn btn-teal">Explore FxN</Link>
-              <Link href="#model" className="btn btn-outline light">Find Your Leadership Model</Link>
+              <Link href="/leadership-as-a-service" className="btn btn-outline light">Find Your Leadership Model</Link>
             </div>
             <div className="hero-proof">
               <div><span className="num">14</span><span className="cap">Active FxN Partners</span></div>
