@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useState } from "react";
 
+// Updated logo deployment
+
 export default function Header() {
   const [open, setOpen] = useState(false);
 
