@@ -380,7 +380,7 @@ export default function HomePage() {
           <h2>What kind of leadership does your next stage require?</h2>
           <p>Tell us where the business is heading, what is changing and where leadership capacity is missing. FxN will help determine whether the company needs a Leadership Pod, Leadership as a Service or a focused leadership mandate.</p>
           <div className="hero-actions">
-            <a href="https://cal.com/harinathpv" target="_blank" rel="noopener noreferrer" className="btn btn-teal">Start a Leadership Conversation</a>
+            <a href="mailto:harinpv@navaka.studio?subject=Wish%20to%20start%20a%20leadership%20conversation" className="btn btn-teal">Start a Leadership Conversation</a>
             <Link href="#model" className="btn btn-outline light">Explore the FxN Model</Link>
           </div>
         </div>

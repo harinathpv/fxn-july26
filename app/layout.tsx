@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
+import TermsAndConditions from "@/components/TermsAndConditions";
 
 export const metadata: Metadata = {
   title: "FxN — Leadership Pods and Leadership as a Service for Growing Companies",
@@ -31,6 +33,8 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <WhatsAppButton />
+        <TermsAndConditions />
       </body>
     </html>
   );
