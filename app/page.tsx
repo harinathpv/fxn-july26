@@ -15,7 +15,7 @@ export default function HomePage() {
             <h1>Build the leadership your business needs.<br />Without building the overhead it doesn&apos;t.</h1>
             <p className="lede">FxN gives growing Indian companies access to senior leadership through outcome-led Leadership Pods and Leadership as a Service.</p>
             <div className="hero-actions">
-              <Link href="#pods" className="btn btn-teal">Explore FxN</Link>
+              <Link href="#vision-mission" className="btn btn-teal">Explore FxN</Link>
               <Link href="/leadership-as-a-service" className="btn btn-outline light">Find Your Leadership Model</Link>
             </div>
             <div className="hero-proof">
