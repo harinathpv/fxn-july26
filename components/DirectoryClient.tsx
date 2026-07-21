@@ -34,7 +34,7 @@ function MemberCard({ m }: { m: DirectoryMember }) {
       <div className="mc-top">
         <div className="mc-avatar">
           {m.img ? (
-            <img src={`https://www.fxn.network/images/members/${m.img}`} alt={m.name} loading="lazy" />
+            <img src={`/members/${m.img}`} alt={m.name} loading="lazy" />
           ) : (
             <span className="initials">{initials(m.name)}</span>
           )}

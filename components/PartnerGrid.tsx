@@ -7,7 +7,7 @@ export default function PartnerGrid() {
         <div className="partner-card" key={p.name}>
           <div className="partner-photo">
             <img
-              src={`https://www.fxn.network/images/members/${p.img}`}
+              src={`/members/${p.img}`}
               alt={p.name}
               loading="lazy"
             />
