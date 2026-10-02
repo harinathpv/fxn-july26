@@ -7,11 +7,13 @@ export default function Footer() {
         <div className="foot-grid">
           <div className="foot-brand">
             <div className="foot-brand-top">
-              <img
-                className="foot-logo-mark"
-                src="https://www.fxn.network/images/fxn-logo-new.png"
-                alt="FxN — The Fractional Executive Network India"
-              />
+              <Link href="/" aria-label="FxN home">
+                <img
+                  className="foot-logo-mark"
+                  src="/fxn-logo.png"
+                  alt="FxN — The Fractional Executive Network India"
+                />
+              </Link>
             </div>
             <p>
               FxN is India&apos;s shared leadership platform, helping growing
