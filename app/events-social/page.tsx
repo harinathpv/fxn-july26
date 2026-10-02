@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { episodes } from "@/lib/data/episodes";
 import { events, partnerEvents } from "@/lib/data/events";
 import { partnerUpdates } from "@/lib/data/partnerUpdates";
+import MonthlyMeet from "@/components/MonthlyMeet";
 
 export const metadata: Metadata = {
   title: "Events & Social — FxN | The Fractional Executive Network India",
@@ -111,6 +112,8 @@ export default function EventsSocialPage() {
               Subscribe on Luma
             </a>
           </div>
+
+          <MonthlyMeet />
 
           <div className="event-grid">
             {sortedEvents.map((ev) => (
