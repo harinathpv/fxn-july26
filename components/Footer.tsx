@@ -53,9 +53,7 @@ export default function Footer() {
             <ul>
               <li><Link href="/member-directory">Member Directory</Link></li>
               <li>
-                <a href="https://forms.office.com/r/j6A1zADKL2" target="_blank" rel="noopener noreferrer">
-                  Become a Member
-                </a>
+                <Link href="/engage">Become a Member</Link>
               </li>
             </ul>
           </div>
