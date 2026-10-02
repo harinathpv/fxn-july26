@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     "Get to know FxN before deciding how you want to engage. Start with an FxN Monthly Meeting.",
 };
 
-const OCTOBER_REGISTRATION_URL = "https://luma.com/fxn";
+const OCTOBER_REGISTRATION_URL = "https://fxn.zohobookings.in/October2026";
 
 export default function EngagePage() {
   return (
