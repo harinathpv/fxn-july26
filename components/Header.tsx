@@ -31,10 +31,8 @@ export default function Header() {
               <Link href="/#partners">The Network ▾</Link>
               <div className="dropdown">
                 <Link href="/#partners">Meet the Partners</Link>
-                <Link href="/member-directory">Member Directory</Link>
-                <a href="https://forms.office.com/r/j6A1zADKL2" target="_blank" rel="noopener noreferrer">
-                  Become a Member
-                </a>
+  <Link href="/member-directory">Member Directory</Link>
+
               </div>
             </li>
             <li>
@@ -79,16 +77,6 @@ export default function Header() {
           </li>
           <li className="sub-item">
             <Link href="/member-directory" onClick={() => setOpen(false)}>— Member Directory</Link>
-          </li>
-          <li className="sub-item">
-            <a
-              href="https://forms.office.com/r/j6A1zADKL2"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setOpen(false)}
-            >
-              — Become a Member
-            </a>
           </li>
           <li>
             <Link href="/events-social" onClick={() => setOpen(false)}>Events</Link>
