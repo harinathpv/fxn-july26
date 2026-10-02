@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { episodes } from "@/lib/data/episodes";
 import { events, partnerEvents } from "@/lib/data/events";
 import { partnerUpdates } from "@/lib/data/partnerUpdates";
+import MonthlyMeet from "@/components/MonthlyMeet";
 
 export const metadata: Metadata = {
   title: "Events & Social — FxN | The Fractional Executive Network India",
@@ -112,6 +113,9 @@ export default function EventsSocialPage() {
             </a>
           </div>
 
+          <MonthlyMeet />
+
+          {sortedEvents.length > 0 && (
           <div className="event-grid">
             {sortedEvents.map((ev) => (
               <div className="event-card" key={ev.name + ev.date}>
@@ -126,13 +130,8 @@ export default function EventsSocialPage() {
                 </div>
               </div>
             ))}
-            {sortedEvents.length === 0 && (
-              <div className="event-card empty">
-                <h3>Event details pending</h3>
-                <p>Share your upcoming event names, dates, format and registration links, and they&apos;ll appear here as structured cards — sorted by date automatically.</p>
-              </div>
-            )}
           </div>
+          )}
         </div>
       </section>
 

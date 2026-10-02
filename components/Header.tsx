@@ -21,30 +21,25 @@ export default function Header() {
         <nav className="primary">
           <ul>
             <li>
-              <Link href="/#featured-pods">Leadership Pods</Link>
+              <Link href="/#featured-pods">Our Offerings ▾</Link>
+              <div className="dropdown">
+                <Link href="/#featured-pods">Leadership Pods</Link>
+                <Link href="/leadership-as-a-service">Leadership as a Service</Link>
+              </div>
             </li>
             <li>
-              <Link href="/leadership-as-a-service">Leadership as a Service</Link>
-            </li>
-            <li>
-              <Link href="/#partners">Partners ▾</Link>
+              <Link href="/#partners">The Network ▾</Link>
               <div className="dropdown">
                 <Link href="/#partners">Meet the Partners</Link>
-                <Link href="/member-directory">Member Directory</Link>
-                <a href="https://forms.office.com/r/j6A1zADKL2" target="_blank" rel="noopener noreferrer">
-                  Become a Member
-                </a>
+  <Link href="/member-directory">Member Directory</Link>
+
               </div>
             </li>
             <li>
-              <Link href="/#insights">Insights ▾</Link>
-              <div className="dropdown">
-                <Link href="/#insights">Insights Overview</Link>
-                <Link href="/events-social">Events &amp; Social</Link>
-              </div>
+              <Link href="/events-social">Events</Link>
             </li>
             <li>
-              <Link href="/#collective">About</Link>
+              <Link href="/engage">Engage</Link>
             </li>
           </ul>
         </nav>
@@ -66,35 +61,28 @@ export default function Header() {
       <div className={`mobile-panel${open ? " open" : ""}`}>
         <ul>
           <li>
-            <Link href="/#featured-pods" onClick={() => setOpen(false)}>Leadership Pods</Link>
+            <Link href="/#featured-pods" onClick={() => setOpen(false)}>Our Offerings</Link>
+          </li>
+          <li className="sub-item">
+            <Link href="/#featured-pods" onClick={() => setOpen(false)}>— Leadership Pods</Link>
+          </li>
+          <li className="sub-item">
+            <Link href="/leadership-as-a-service" onClick={() => setOpen(false)}>— Leadership as a Service</Link>
           </li>
           <li>
-            <Link href="/leadership-as-a-service" onClick={() => setOpen(false)}>Leadership as a Service</Link>
+            <Link href="/#partners" onClick={() => setOpen(false)}>The Network</Link>
           </li>
-          <li>
-            <Link href="/#partners" onClick={() => setOpen(false)}>Meet the Partners</Link>
+          <li className="sub-item">
+            <Link href="/#partners" onClick={() => setOpen(false)}>— Meet the Partners</Link>
           </li>
           <li className="sub-item">
             <Link href="/member-directory" onClick={() => setOpen(false)}>— Member Directory</Link>
           </li>
-          <li className="sub-item">
-            <a
-              href="https://forms.office.com/r/j6A1zADKL2"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setOpen(false)}
-            >
-              — Become a Member
-            </a>
+          <li>
+            <Link href="/events-social" onClick={() => setOpen(false)}>Events</Link>
           </li>
           <li>
-            <Link href="/#insights" onClick={() => setOpen(false)}>Insights</Link>
-          </li>
-          <li className="sub-item">
-            <Link href="/events-social" onClick={() => setOpen(false)}>— Events &amp; Social</Link>
-          </li>
-          <li>
-            <Link href="/#collective" onClick={() => setOpen(false)}>About</Link>
+            <Link href="/engage" onClick={() => setOpen(false)}>Engage</Link>
           </li>
         </ul>
         <Link href="/#final-cta" className="btn btn-primary" onClick={() => setOpen(false)}>
