@@ -115,6 +115,7 @@ export default function EventsSocialPage() {
 
           <MonthlyMeet />
 
+          {sortedEvents.length > 0 && (
           <div className="event-grid">
             {sortedEvents.map((ev) => (
               <div className="event-card" key={ev.name + ev.date}>
@@ -129,13 +130,8 @@ export default function EventsSocialPage() {
                 </div>
               </div>
             ))}
-            {sortedEvents.length === 0 && (
-              <div className="event-card empty">
-                <h3>Event details pending</h3>
-                <p>Share your upcoming event names, dates, format and registration links, and they&apos;ll appear here as structured cards — sorted by date automatically.</p>
-              </div>
-            )}
           </div>
+          )}
         </div>
       </section>
 
