@@ -386,6 +386,26 @@ footer{background:var(--navy-deep);color:#8B97A5;border-top:1px solid var(--line
 .page-hero h1{color:var(--ivory);margin-bottom:16px;max-width:760px;}
 .page-hero p{color:#C4CCD5;font-size:1.08rem;max-width:640px;}
 
+/* ================= ENGAGE ================= */
+.engage-intro{display:grid;grid-template-columns:0.9fr 1.1fr;gap:64px;align-items:start;}
+.engage-intro .section-head{margin-bottom:0;}
+.engage-body{display:flex;flex-direction:column;gap:20px;}
+.engage-body p{line-height:1.6;}
+.engage-emphasis{font-family:'Fraunces',serif;font-size:1.4rem !important;color:var(--navy-deep) !important;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:20px 0;}
+.engage-meeting{display:grid;grid-template-columns:1.2fr 0.8fr;gap:64px;align-items:start;}
+.engage-meeting-copy{display:flex;flex-direction:column;gap:20px;}
+.engage-meeting-copy p{line-height:1.6;}
+.engage-lead{font-size:1.2rem !important;color:var(--navy-deep) !important;}
+.engage-card{background:var(--paper);border:1px solid var(--line);padding:36px;display:flex;flex-direction:column;gap:28px;}
+.engage-card dl{display:flex;flex-direction:column;gap:24px;}
+.engage-card dt{font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:var(--teal);font-weight:600;margin-bottom:6px;}
+.engage-card dd{font-family:'Fraunces',serif;font-size:1.5rem;color:var(--navy-deep);}
+.engage-card dd.engage-note{font-family:inherit;font-size:14px;color:var(--grey);margin-top:2px;}
+.engage-card .btn{text-align:center;justify-content:center;}
+@media (max-width:860px){
+  .engage-intro,.engage-meeting{grid-template-columns:1fr;gap:40px;}
+}
+
 .podcast-layout{display:grid;grid-template-columns:1.1fr 0.9fr;gap:56px;align-items:center;}
 .video-frame{position:relative;width:100%;aspect-ratio:16/9;border:1px solid var(--line);background:var(--navy-soft);overflow:hidden;}
 .video-frame iframe{width:100%;height:100%;border:0;display:block;}

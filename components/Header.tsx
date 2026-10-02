@@ -44,6 +44,9 @@ export default function Header() {
               </div>
             </li>
             <li>
+              <Link href="/engage">Engage</Link>
+            </li>
+            <li>
               <Link href="/#collective">About</Link>
             </li>
           </ul>
@@ -92,6 +95,9 @@ export default function Header() {
           </li>
           <li className="sub-item">
             <Link href="/events-social" onClick={() => setOpen(false)}>— Events &amp; Social</Link>
+          </li>
+          <li>
+            <Link href="/engage" onClick={() => setOpen(false)}>Engage</Link>
           </li>
           <li>
             <Link href="/#collective" onClick={() => setOpen(false)}>About</Link>
